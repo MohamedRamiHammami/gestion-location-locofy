@@ -1,0 +1,244 @@
+.infos-sci-child {
+  height: 380px;
+  width: 1314px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.infos-sci1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.company-name-icons,
+.info-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-9xs);
+}
+.company-name-icons {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.nom-de-la {
+  position: relative;
+}
+.company-name-fields {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.sci-garcia {
+  position: relative;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.nom-sci {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-12xs) var(--padding-3xs)
+    var(--padding-3xs);
+  gap: var(--gap-xl);
+}
+.siren {
+  position: relative;
+  display: inline-block;
+  min-width: 55px;
+}
+.ricalendar-2-line-icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ricalendar-2-line-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  flex-shrink: 0;
+}
+.date-de-cration {
+  width: 169px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-parent7,
+.nom-sci2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent7 {
+  flex: 1;
+  gap: var(--gap-3xs);
+  min-width: 131px;
+}
+.nom-sci2 {
+  align-self: stretch;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  gap: var(--gap-139xl);
+}
+.numro-tva {
+  position: relative;
+  display: inline-block;
+  min-width: 125px;
+}
+.company-details,
+.nom-sci-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nom-sci-parent {
+  align-self: stretch;
+  gap: var(--gap-lg);
+  z-index: 1;
+  font-size: var(--font-size-xl);
+  color: var(--color-texte);
+}
+.company-details {
+  width: 478px;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+.adresse,
+.rcs1 {
+  position: relative;
+  display: inline-block;
+  min-width: 82px;
+}
+.rcs1 {
+  min-width: 41px;
+}
+.id,
+.rcs,
+.siret,
+.siret-inner {
+  display: flex;
+  align-items: flex-start;
+}
+.rcs {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  gap: var(--gap-xl);
+}
+.id,
+.siret,
+.siret-inner {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.id,
+.siret {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-5xs) 0 var(--padding-3xs) var(--padding-3xs);
+  gap: var(--gap-xl);
+}
+.id {
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+}
+.infos-sci,
+.nom-sci-group {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  z-index: 1;
+}
+.nom-sci-group {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-lg);
+  min-width: 571px;
+  font-size: var(--font-size-xl);
+  color: var(--color-texte);
+}
+.infos-sci {
+  width: 1314px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-3xl) var(--padding-3xl) var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-159xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1225px) {
+  .company-details,
+  .nom-sci-group {
+    flex: 1;
+  }
+  .infos-sci {
+    gap: var(--gap-70xl);
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nom-sci2 {
+    gap: var(--gap-60xl);
+  }
+  .company-details,
+  .nom-sci-group {
+    min-width: 100%;
+  }
+  .infos-sci {
+    gap: var(--gap-25xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .infos-sci1 {
+    font-size: var(--font-size-lgi);
+  }
+  .nom-de-la,
+  .sci-garcia {
+    font-size: var(--font-size-base);
+  }
+  .nom-sci {
+    flex-wrap: wrap;
+  }
+  .date-de-cration,
+  .siren {
+    font-size: var(--font-size-base);
+  }
+  .nom-sci2 {
+    flex-wrap: wrap;
+  }
+  .adresse,
+  .numro-tva,
+  .rcs1 {
+    font-size: var(--font-size-base);
+  }
+  .rcs,
+  .siret {
+    flex-wrap: wrap;
+  }
+  .infos-sci {
+    gap: var(--gap-3xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}

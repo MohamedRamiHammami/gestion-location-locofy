@@ -1,0 +1,14 @@
+.component-child {
+  width: 11px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  height: 11px;
+}
+.ellipse-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}

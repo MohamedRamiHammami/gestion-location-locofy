@@ -1,0 +1,21 @@
+<div class="rectangle-group" [ngStyle]="groupDivStyle">
+      <div class="rectangle-div" ></div>
+      <div class="revenue-labels" [ngStyle]="revenueLabelsStyle">
+        <div class="total-revenues">{{totalRevenues}}</div>
+        <div class="unit-labels" [ngStyle]="unitLabelsStyle">
+          <b class="k" [ngStyle]="kStyle">{{k}}</b>
+          <div class="unit-labels-inner">
+            <div class="empty-value-parent">
+              <div class="empty-value">+1,25</div>
+              <div class="riarrow-right-up-line-wrapper">
+                <img class="riarrow-right-up-line-icon" alt="" src="assets/riarrowrightupline.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="compar-au-mois">Comparé au mois passé</div>
+      </div>
+      <div class="frame-wrapper1">
+        <img class="group-icon" loading="lazy" alt="" [src]="group2" />
+      </div>
+    </div>

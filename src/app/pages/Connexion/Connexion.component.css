@@ -1,0 +1,37 @@
+.connexion,
+.connexion-child {
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+}
+.connexion-child {
+  height: 1117px;
+  width: 1728px;
+  display: none;
+  max-width: 100%;
+}
+.connexion {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 105px 445px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 900px) {
+  .connexion {
+    padding-left: var(--padding-203xl);
+    padding-right: var(--padding-203xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .connexion {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

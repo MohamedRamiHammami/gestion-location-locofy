@@ -1,0 +1,122 @@
+.rectangle-div {
+  height: 142px;
+  width: 359px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.total-revenues {
+  position: relative;
+  z-index: 1;
+}
+.empty-value,
+.k {
+  position: relative;
+  display: inline-block;
+}
+.k {
+  min-width: 76px;
+  z-index: 1;
+}
+.empty-value {
+  min-width: 26px;
+}
+.riarrow-right-up-line-icon {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.riarrow-right-up-line-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.empty-value-parent {
+  border-radius: var(--br-11xs);
+  background-color: var(--color-limegreen-300);
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-9xs)
+    var(--padding-8xs);
+  gap: var(--gap-12xs);
+  z-index: 1;
+}
+.empty-value-parent,
+.unit-labels,
+.unit-labels-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.unit-labels-inner {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  font-size: var(--font-size-3xs);
+  color: var(--color-limegreen-100);
+}
+.unit-labels {
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-5xl);
+}
+.compar-au-mois {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-texte);
+  z-index: 1;
+}
+.revenue-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.group-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frame-wrapper1,
+.rectangle-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-wrapper1 {
+  height: 84.2px;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+}
+.rectangle-group {
+  position: absolute;
+  top: 182px;
+  left: 374px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 359px;
+  flex-direction: row;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-lg);
+  gap: var(--gap-32xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .k {
+    font-size: var(--font-size-lgi);
+  }
+}

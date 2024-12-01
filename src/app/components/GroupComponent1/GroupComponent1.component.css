@@ -1,0 +1,119 @@
+.frame-child1 {
+  height: 142px;
+  width: 359px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.total-revenues1 {
+  position: relative;
+  z-index: 1;
+}
+.k1 {
+  display: inline-block;
+  min-width: 76px;
+  z-index: 1;
+}
+.div4,
+.k1 {
+  position: relative;
+}
+.riarrow-right-up-line-icon1 {
+  height: 12.9px;
+  width: 12.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: 5px;
+  right: 5.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.parent {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-red-200);
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-8xs);
+  position: relative;
+  gap: var(--gap-12xs);
+  z-index: 1;
+}
+.frame-wrapper2,
+.k-parent,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper2 {
+  width: 48px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-3xs);
+  color: var(--color-red-100);
+}
+.k-parent {
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-5xl);
+}
+.compar-au-mois1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  color: var(--color-texte);
+  z-index: 1;
+}
+.total-revenues-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frame-child2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frame-wrapper3,
+.rectangle-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-wrapper3 {
+  height: 84.2px;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+}
+.rectangle-container {
+  position: absolute;
+  top: 182px;
+  left: 1304px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 359px;
+  flex-direction: row;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-lg);
+  gap: var(--gap-32xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .k1 {
+    font-size: var(--font-size-lgi);
+  }
+}
